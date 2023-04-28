@@ -4,7 +4,9 @@ namespace System\Database\Traits;
 
 trait HasAttributes
 {
-    private function registerAttribue(){}
+    private function registerAttribue(){
+        return "hi";
+    }
     protected function arrayToAttribute(){}
     protected function arrayToObject(){}
     private function inHiddenAttributes(){}

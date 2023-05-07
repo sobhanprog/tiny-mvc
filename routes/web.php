@@ -16,7 +16,7 @@ Route::delete('/delete/{id}', [App\Http\Controllers\HomeController::class, 'dele
 Route::get('/show/{id}', [HomeController::class, 'show'], 'show');
 Route::get('/create', [HomeController::class, 'create'], 'create');
 
-
+    
 
 
 
